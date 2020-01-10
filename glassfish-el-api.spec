@@ -2,7 +2,7 @@
 
 Name:           glassfish-el-api
 Version:        2.2.4
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Expression Language API 2.2.4
 
 Group:          Development/Libraries
@@ -55,6 +55,9 @@ cp -p %{SOURCE1} .
 %doc LICENSE-2.0.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.2.4-5
+- Mass rebuild 2013-12-27
+
 * Fri Aug 23 2013 Michal Srb <msrb@redhat.com> - 2.2.4-4
 - Migrate away from mvn-rpmbuild (Resolves: #997498)
 
